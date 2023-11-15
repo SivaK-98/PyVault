@@ -19,12 +19,22 @@ Content
 </form>
 <table class="table table-striped">
   <tbody>
+    <tr>
+      <th>S.No.</th>
+      <th>APP</th>
+      <th>USER</th>
+      <th>ADDED BY</th>
+      <th>Password</th>
+      <th></th>
+      
+    </tr>
          {% for item in item_name %}
-  
+       
         <tr>
           <td> {{ item.count }}</td>
           <td>{{ item.app }}</td>
           <td>{{ item.user }}</td>
+          <td>{{ item.is_admin }}</td>
           <td> <input id="password_{{ item.count }}" name="password" type="password" disabled value={{ item.password }}></td>
           <td> <button onclick="myFunction(`${ {{ item.count }} }`)">COPY</button> </td>
 

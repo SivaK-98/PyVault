@@ -21,8 +21,10 @@ def login(email, password):
       got_password = result["password"]
       data_pass = (got_password, key)
       decrypted = crypt.decrypt(data_pass)
+
       flag = False
       if decrypted == password:
+        print("Password matched!!")
         flag = True
         flag = str(flag)
         account_id = result["account_id"]
@@ -44,6 +46,7 @@ def login(email, password):
             user = items["user"]
             enc_pass = items["password"]
             enc_key = items["key"]
+            is_admin = items["is_admin"]
             data = (enc_pass, enc_key)
             dec_pass = crypt.decrypt(data)
             #print("dec_pass_key:", dec_pass)
@@ -52,7 +55,8 @@ def login(email, password):
             secret_dict["user"] = user
             secret_dict["password"] = dec_pass
             secret_dict["count"] = count
-            #print("dictionary:", secret_dict)
+            secret_dict["is_admin"] = is_admin
+            print("dictionary:", secret_dict)
             secret_list.append(secret_dict)
         #print("Secret List from mongo db:", secret_list)
         return secret_list, account_id
@@ -66,11 +70,28 @@ def login(email, password):
     return e
 
 
-def create_account(email, user, mobile, password):
+def create_account(email, user, mobile, password, adminemail):
+  print("Entering into create account function")
+  print("ADMIN EMAIL:", adminemail)
   try:
     import random
-    r = random.randint(1111, 9999)
-    user_db = db[str(r)]
+    result = auth_db.find_one({"admin": adminemail}, {"_id": 0})
+    if result != None:
+      print("Result from create_account function:", result)
+      got_admin_email = result["admin"]
+      account_id = result["account_id"]
+      print("Admin email:", adminemail)
+      print("Account ID:", account_id)
+      if adminemail == got_admin_email:
+        r = account_id
+        user_db = db[str(r)]
+      else:
+        r = random.randint(1111, 9999)
+        user_db = db[str(r)]
+    else:
+      r = random.randint(1111, 9999)
+      user_db = db[str(r)]
+    print("USER DB:", user_db)
     created_time = datetime.datetime.now()
     encrypt_data = crypt.encryptor(password)
     encrypte_pass = encrypt_data[0]
@@ -79,11 +100,13 @@ def create_account(email, user, mobile, password):
         "email": email,
         "user": user,
         "mobile": mobile,
+        "admin": adminemail,
         "password": encrypte_pass,
         "key": key,
         "account_id": r,
         "created_time": created_time
     }
+    print("Query to add into user DB:", query)
     auth_db.insert_one(query)
     query2 = {"created time": created_time}
     user_db.insert_one(query2)
@@ -104,10 +127,19 @@ def remove_entry(remove_app, remove_user, account_id):
     return False
 
 
-def add_entry(add_app, add_user, add_pword, account_id):
+def add_entry(add_app, add_user, add_pword, account_id, email):
+  print("kicked off add_entry function:")
   try:
     user_db = db[str(account_id)]
     print(user_db)
+    result = auth_db.find_one({"email": email}, {"_id": 0})
+    print("result from add_entry:", result)
+    got_email = result["admin"]
+    print("Email from user:", email)
+    print("Got email from auth DB:", got_email)
+    user = "USER"
+    if got_email == email:
+      user = "ADMIN"
     data = crypt.encryptor(add_pword)
     print("data from add entry:", data)
     encrypte_pass = data[0]
@@ -115,6 +147,7 @@ def add_entry(add_app, add_user, add_pword, account_id):
     query = {
         "app": add_app,
         "user": add_user,
+        "is_admin": user,
         "password": encrypte_pass,
         "key": key
     }

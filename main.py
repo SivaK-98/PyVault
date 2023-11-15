@@ -19,12 +19,13 @@ def content():
 
     button = request.form.get("content_button")
     if button == "login":
-      #print("logged in")
+      print("Executing login command")
       global email
       global password
       global data
       global account_id
       email = request.form.get("email")
+
       #print("email:", email)
       password = request.form.get("password")
       #print("password:", password)
@@ -60,10 +61,11 @@ def content():
       add_pword = request.form.get("add_pass")
       print(add_app)
       print("Global account_id:", account_id)
-      response = mongodb.add_entry(add_app, add_user, add_pword, account_id)
+      response = mongodb.add_entry(add_app, add_user, add_pword, account_id,
+                                   email)
       result = mongodb.login(email, password)
       data = result[0]
-      print(data)
+      print("DATA:", data)
 
       return render_template("content.html", item_name=data)
 
@@ -77,9 +79,10 @@ def signup():
 def create_account():
   email = request.form.get("email")
   user = request.form.get("user")
+  admin_email = request.form.get("adminemail")
   password = request.form.get("password")
   mobile = request.form.get("mobile")
-  result = mongodb.create_account(email, user, mobile, password)
+  result = mongodb.create_account(email, user, mobile, password, admin_email)
   result = str(result)
 
   if result == "True":
