@@ -6,7 +6,7 @@ Content
 
 
 {% block content %}
-<form action="{{ url_for('content') }}" method="post">
+<div class="container"><form action="{{ url_for('content') }}" method="post">
   <input type="text" name="add_app" id="app", placeholder="appname">
   <input type="text" name="add_user" id="user", placeholder="username">
   <input type="password" name="add_pass" id="pword", placeholder="password">
@@ -17,31 +17,39 @@ Content
   <input type="text" name="removeuser" id="removeuser", placeholder="username">
   <input type="submit" class="bi bi-eye-slash" name="content_button" value="remove">
 </form>
-<table class="table table-striped">
-  <tbody>
-    <tr>
-      <th>S.No.</th>
-      <th>APP</th>
-      <th>USER</th>
-      <th>ADDED BY</th>
-      <th>Password</th>
-      <th></th>
-      
-    </tr>
-         {% for item in item_name %}
-       
-        <tr>
-          <td> {{ item.count }}</td>
-          <td>{{ item.app }}</td>
-          <td>{{ item.user }}</td>
-          <td>{{ item.is_admin }}</td>
-          <td> <input id="password_{{ item.count }}" name="password" type="password" disabled value={{ item.password }}></td>
-          <td> <button onclick="myFunction(`${ {{ item.count }} }`)">COPY</button> </td>
+</div>
 
-        </tr>
-        {% endfor %}
-      </tbody>
-</table>
+<div>
+  <table class="container">
+    <thead class="table-dark">
+      <tr>
+        <th>S.No.</th>
+        <th>APP</th>
+        <th>USER</th>
+        <th>ADDED BY</th>
+        <th>Password</th>
+        <th></th>
+    </thead>
+    <tbody>
+      
+
+      </tr>
+           {% for item in item_name %}
+
+          <tr>
+            <td> {{ item.count }}</td>
+            <td>{{ item.app }}</td>
+            <td>{{ item.user }}</td>
+            <td>{{ item.is_admin }}</td>
+            <td> <input id="password_{{ item.count }}" name="password" type="password" disabled value={{ item.password }} placeholder="*****"></td>
+            <td> <button onclick="myFunction(`${ {{ item.count }} }`)">COPY</button> </td>
+
+          </tr>
+          {% endfor %}
+        </tbody>
+  </table>
+</div>
+
 
 <script>
   function myFunction(count) {
