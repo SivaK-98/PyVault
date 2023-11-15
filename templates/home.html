@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+
+{% block title %}
+VAULT
+{% endblock %}
+{% block login %}
+
+Login Page
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <form action="{{ url_for('content') }}" method="post">
+      <input type="text" id="email" class="fadeIn second" name="email" placeholder="email">
+      <input type="password" id="password" class="bi bi-eye-slash" name="password" placeholder="password">
+      <input type="submit" class="fadeIn fourth" name="content_button" value="login">
+    </form>
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+    {% for category, message in get_flashed_messages(with_categories=True) %}
+      <div class="alert alert-{{category}}">{{ message }}</div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
