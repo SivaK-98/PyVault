@@ -3,10 +3,11 @@ import datetime
 
 import pymongo
 from pymongo.errors import DuplicateKeyError
+import os
 
-client = pymongo.MongoClient(
-    "mongodb+srv://awstestuser1998:awstestuser1998@cluster0.nb2lq1w.mongodb.net/"
-)
+url = os.getenv("mongodb")
+print(url)
+client = pymongo.MongoClient(url)
 db = client["auth"]
 auth_db = db["users"]
 db.users.create_index([('email', pymongo.ASCENDING)], unique=True)
