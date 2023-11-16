@@ -99,19 +99,31 @@ def create_account():
 
 @app.route("/forgot_password", methods=["POST", "GET"])
 def forgot_password():
-  
+
   return render_template("forgot_password.html")
 
-@app.route("/verify_otp",methods=["POST","GET"])
+
+current_session = {}
+
+
+@app.route("/verify_otp", methods=["POST", "GET"])
 def verify_otp():
   email = request.form.get("email")
-  admin = request.form.get("admin")
+  admin = request.form.get("adminemail")
   user = request.form.get("user")
-  mobile = request.form.get("mobile")
-  
-  return render_template("verify.html")
-  
+  import generate_otp
+  result = generate_otp.generate_opt(email)
+  current_session["OTP"] = result
+  return render_template("verify_otp.html", otp=result)
 
+
+@app.route("/validate_otp", methods=["POST", "GET"])
+def validate_otp():
+  otp = request.form.get("otp")
+  if otp == current_session["OTP"]:
+    return "OTP Matched"
+  else:
+    return "OTP Does not Match"
 
 
 app.run(host='0.0.0.0', port=81, debug=True)

@@ -1,25 +1,28 @@
-import smtplib, ssl
-import os
+import smtplib
+import math, random
 
-password = os.getenv("sender_email_pass")
-print(password)
-smtp_server = "smtp.gmail.com"
-port = 587  # For starttls
-sender_email = "awstestuser1998@gmail.com"
 
-# Create a secure SSL context
-context = ssl.create_default_context()
+def generate_opt(email):
+  digits = "0123456789"
+  OTP = ""
+  for i in range(4):
+    OTP += digits[math.floor(random.random() * 10)]
+  print("OTP Generated is:", OTP)
+  smtp_server = 'smtp.gmail.com'
+  smtp_port = 587
+  smtp_username = 'awstestuser1998@gmail.com'
+  smtp_password = 'vynz sffl mhsj zydv'
 
-# Try to log in to server and send email
-try:
-  server = smtplib.SMTP(smtp_server, port)
-  server.ehlo()  # Can be omitted
-  server.starttls(context=context)  # Secure the connection
-  server.ehlo()  # Can be omitted
-  server.login(sender_email, password)
-  # TODO: Send email here
-except Exception as e:
-  # Print any error messages to stdout
-  print(e)
-finally:
-  server.quit()
+  to_email = email
+  subject = 'OTP Verification'
+  from_email = 'awstestuser1998@gmail.com'
+  subject = 'Hello, world!'
+  body = f'This is a test email.{OTP}'
+
+  message = f'Subject: {subject}\n\n{body}'
+
+  with smtplib.SMTP(smtp_server, smtp_port) as smtp:
+    smtp.starttls()
+    smtp.login(smtp_username, smtp_password)
+    smtp.sendmail(from_email, to_email, message)
+  return OTP

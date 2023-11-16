@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+
+
+{% block signup %}
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <div container>
+      <form action="{{ url_for('verify_otp') }}" method="post">
+        <input type="text" id="OTP" class="fadeIn second" name="OTP" placeholder="ENTER 6 DIGIT OTP">
+        <input type="submit" class="fadeIn fourth" value="Validate" name="validate_otp">
+
+      </div
+
+
+  </div>
+</div>
+{% endblock %}
