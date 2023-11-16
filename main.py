@@ -1,10 +1,14 @@
 from flask import Flask, flash, redirect, render_template, request, url_for
-
+import logging
 import mongodb
+import datetime
+import generate_otp
 
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 app.config['MESSAGE_FLASHING_OPTIONS'] = {'duration': 5}
+
+logging.basicConfig(filename='app.log', filemode='w')
 
 
 @app.route('/')
@@ -93,4 +97,21 @@ def create_account():
     return redirect(url_for('signup'))
 
 
-app.run(host='0.0.0.0', port=81)
+@app.route("/forgot_password", methods=["POST", "GET"])
+def forgot_password():
+  
+  return render_template("forgot_password.html")
+
+@app.route("/verify_otp",methods=["POST","GET"])
+def verify_otp():
+  email = request.form.get("email")
+  admin = request.form.get("admin")
+  user = request.form.get("user")
+  mobile = request.form.get("mobile")
+  
+  return render_template("verify.html")
+  
+
+
+
+app.run(host='0.0.0.0', port=81, debug=True)

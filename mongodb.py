@@ -1,6 +1,5 @@
 import crypt
 import datetime
-
 import pymongo
 from pymongo.errors import DuplicateKeyError
 import os
