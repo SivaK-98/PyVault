@@ -156,3 +156,19 @@ def add_entry(add_app, add_user, add_pword, account_id, email):
   except Exception as e:
     print(e)
     return e
+
+
+def reset_password(user, email, admin, password):
+  try:
+    print("Password before encryption:", password)
+    encrypt_data = crypt.encryptor(password)
+    encrypte_pass = encrypt_data[0]
+    key = encrypt_data[1]
+    filter = {"email": email, "user": user, "admin": admin}
+    new_values = {"$set": {'password': encrypte_pass, 'key': key}}
+    print("new_values:", new_values)
+    response = auth_db.findOneAndUpdate(filter, new_values)
+    print(response)
+    return "Updated"
+  except:
+    return "Failed"

@@ -1,4 +1,4 @@
-from flask import Flask, flash, redirect, render_template, request, url_for
+from flask import Flask, flash, redirect, render_template, request, url_for, jsonify
 import logging
 import mongodb
 import datetime
@@ -108,11 +108,13 @@ current_session = {}
 
 @app.route("/verify_otp", methods=["POST", "GET"])
 def verify_otp():
-  data = {}
+
   if request.method == "POST":
     button = request.form.get("send_otp")
     global otp
     global result
+    global data
+    data = {}
     global current_session
     email = request.form.get("email")
     print("Email to send OTP:", email)
@@ -138,11 +140,27 @@ def validate_otp():
     print("OTP from previous result:", result)
     if OTP == result:
       print("OTP Matched")
-      return render_template("password_reset.html")
+      return render_template("reset_password.html", data=data)
     else:
       print("OTP Does not match")
       flash("OTP Does not match!!", "error")
-      return "OTP Does not match!!", "error"
+      return render_template("forgot_password.html")
+
+
+@app.route("/reset_password", methods=["POST", "GET"])
+def reset_password():
+  if request.method == "POST":
+    user = request.form.get("user")
+    email = request.form.get("email")
+    admin = request.form.get("admin")
+    password = request.form.get("password")
+    response = mongodb.reset_password(user, email, admin, password)
+    if response == "Updated":
+      flash("Password updated successfully!!")
+      return render_template("home.html")
+    else:
+      flash("Unable to reset password, check the email ID!!")
+      return render_template("forgot_password.html")
 
 
 app.run(host='0.0.0.0', port=81, debug=True)
