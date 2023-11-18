@@ -1,10 +1,14 @@
 from flask import Flask, flash, redirect, render_template, request, url_for
-
+import logging
 import mongodb
+import datetime
+import generate_otp
 
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 app.config['MESSAGE_FLASHING_OPTIONS'] = {'duration': 5}
+
+logging.basicConfig(filename='app.log', filemode='w')
 
 
 @app.route('/')
@@ -93,4 +97,52 @@ def create_account():
     return redirect(url_for('signup'))
 
 
-app.run(host='0.0.0.0', port=81)
+@app.route("/forgot_password", methods=["POST", "GET"])
+def forgot_password():
+
+  return render_template("forgot_password.html")
+
+
+current_session = {}
+
+
+@app.route("/verify_otp", methods=["POST", "GET"])
+def verify_otp():
+  data = {}
+  if request.method == "POST":
+    button = request.form.get("send_otp")
+    global otp
+    global result
+    global current_session
+    email = request.form.get("email")
+    print("Email to send OTP:", email)
+    admin = request.form.get("adminemail")
+    user = request.form.get("user")
+    data["email"] = email
+    data["admin"] = admin
+    data["user"] = user
+    import generate_otp
+    result = generate_otp.generate_opt(email)
+    #current_session["OTP"] = result
+    print("OTP Result:", result)
+    return render_template("forgot_password.html", otp=result, data=data)
+
+
+@app.route("/validate_otp", methods=["POST", "GET"])
+def validate_otp():
+  if request.method == "POST":
+    user = data["user"]
+    email = data["email"]
+    admin = data["admin"]
+    OTP = request.form.get("OTP")
+    print("OTP from previous result:", result)
+    if OTP == result:
+      print("OTP Matched")
+      return render_template("password_reset.html")
+    else:
+      print("OTP Does not match")
+      flash("OTP Does not match!!", "error")
+      return "OTP Does not match!!", "error"
+
+
+app.run(host='0.0.0.0', port=81, debug=True)

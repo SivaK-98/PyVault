@@ -1,12 +1,11 @@
 import crypt
 import datetime
-
 import pymongo
 from pymongo.errors import DuplicateKeyError
 import os
 
 url = os.getenv("mongodb")
-print(url)
+
 client = pymongo.MongoClient(url)
 db = client["auth"]
 auth_db = db["users"]

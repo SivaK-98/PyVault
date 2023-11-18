@@ -2,5 +2,4 @@ create eye icon
 create copy option
 create api
 create OTP for API
-
-
+add logger file
