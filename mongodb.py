@@ -165,6 +165,7 @@ def reset_password(user, email, admin, password):
     encrypte_pass = encrypt_data[0]
     key = encrypt_data[1]
     filter = {"email": email, "user": user, "admin": admin}
+    print("Filter:",filter)
     new_values = { "$set":  {'password': encrypte_pass, 'key': key } }
     print("new_values:", new_values)
     print(auth_db)

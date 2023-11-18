@@ -148,8 +148,9 @@ def validate_otp():
 
 
 @app.route("/reset_password", methods=["POST", "GET"])
-def reset_password():
+def reset_password(data):
   if request.method == "POST":
+    print(data)
     user = request.form.get("user")
     email = request.form.get("email")
     admin = request.form.get("admin")
