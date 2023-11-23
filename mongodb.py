@@ -165,13 +165,22 @@ def reset_password(user, email, admin, password):
     encrypte_pass = encrypt_data[0]
     key = encrypt_data[1]
     filter = {"email": email, "user": user, "admin": admin}
-    print("Filter:",filter)
-    new_values = { "$set":  {'password': encrypte_pass, 'key': key } }
+    print("Filter:", filter)
+    new_values = {"$set": {'password': encrypte_pass, 'key': key}}
     print("new_values:", new_values)
     print(auth_db)
-    result = auth_db.find_one(filter)
-    print(result.json())
-    response = auth_db.update_one(filter, new_values)
+    result = auth_db.find_one({
+        "email": email,
+        "user": user,
+        "admin": admin
+    }, {"_id": 0})
+    print("Result from auth DB entry:", result)
+    response = auth_db.update_one(
+        {
+            "email": email,
+            "user": user,
+            "admin": admin
+        }, new_values)
     print(response)
     return "Updated"
   except:
