@@ -13,6 +13,8 @@ smsapi-client = "2.9.5"
 plivo = "4.45.0"
 twilio = "8.10.1"
 flask-twilio = "0.0.6"
+python-json-logger = "2.0.7"
+logging-config = "^1.0.4"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md

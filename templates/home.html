@@ -8,12 +8,18 @@ VAULT
 
 
 <div class="container">
-  Login 
   <div id="formContent">
     <form action="{{ url_for('content') }}" method="post">
-      <input type="text" id="email" class="fadeIn second" name="email" placeholder="email">
-      <input type="password" id="password" class="bi bi-eye-slash" name="password" placeholder="password">
-      <input type="submit" class="fadeIn fourth" name="content_button" value="login">
+      <br>
+      <p>
+      <input type="email" id="email" class="fadeIn second" name="email" placeholder="email">
+        </p>
+       <p>
+      <input type="password" id="password" class="bi bi-eye-slash" name="password" placeholder="password"> 
+         </p>
+         <p>
+           <input type="submit" class="fadeIn fourth" name="content_button" value="login">
+            </p>
     </form>
     <div id="formFooter">
       <a class="underlineHover" href="{{ url_for('forgot_password') }}">Forgot Password?</a>

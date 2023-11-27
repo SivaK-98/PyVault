@@ -599,6 +599,16 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
+name = "logging-config"
+version = "1.0.4"
+description = "A wrapper class for the Python standard logging module"
+optional = false
+python-versions = "*"
+files = [
+    {file = "logging-config-1.0.4.tar.gz", hash = "sha256:840a2c807e5580b9da35dbbc2513b2206c9a37c2f4f7ca605b035a3ae88f55c7"},
+]
+
+[[package]]
 name = "lxml"
 version = "4.9.3"
 description = "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API."
@@ -1005,6 +1015,17 @@ snappy = ["python-snappy"]
 zstd = ["zstandard"]
 
 [[package]]
+name = "python-json-logger"
+version = "2.0.7"
+description = "A python library adding a json log formatter"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "python-json-logger-2.0.7.tar.gz", hash = "sha256:23e7ec02d34237c5aa1e29a070193a4ea87583bb4e7f8fd06d3de8264c4b2e1c"},
+    {file = "python_json_logger-2.0.7-py3-none-any.whl", hash = "sha256:f380b826a991ebbe3de4d897aeec42760035ac760345e57b812938dc8b35e2bd"},
+]
+
+[[package]]
 name = "requests"
 version = "2.31.0"
 description = "Python HTTP for Humans."
@@ -1190,4 +1211,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "461cca9dc65f8851fda35f2e32e1cb018bd40862b2a8769d2179195615e1aef9"
+content-hash = "ddaf46b00724c4857f8e7ca4b3b4c22ef0e67476cf317bab6f6b5a8cf802f05f"

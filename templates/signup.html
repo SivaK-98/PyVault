@@ -2,18 +2,29 @@
 
 
 {% block signup %}
-<div class="wrapper fadeInDown">
-  <div id="formContent">
+    <div class="container">
+      <div id="formContent">
     <!-- Tabs Titles -->
 
     <!-- Icon 
     <!-- Login Form -->
     <form action="{{ url_for('create_account') }}" method="post">
+      <p>
+        <br>
       <input type="text" id="email" class="fadeIn second" name="email" placeholder="email">
-      <input type="text" id="adminemail" class= "fadeIn third" name="adminemail" placeholder="admin email">
-      <input type="text" id="username" class="fadeIn second" name="user" placeholder="user">
-       <input type="text" id="mobile" class="fadeIn second" name="mobile" placeholder="mobile">
+        </p>
+      <p>
+        <input type="text" id="adminemail" class= "fadeIn third" name="adminemail" placeholder="admin email">
+        </p>
+      <p>
+        <input type="text" id="username" class="fadeIn second" name="user" placeholder="user">
+       </p>
+      <p>
+      <input type="text" id="mobile" class="fadeIn second" name="mobile" placeholder="mobile">
+      </p>
+      <p>
       <input type="password" id="password" class="bi bi-eye-slash" name="password" placeholder="password">
+      </p>
       <input type="submit" class="fadeIn fourth" value="Signup">
 
       {% for category, message in get_flashed_messages(with_categories=True) %}
@@ -22,11 +33,6 @@
 
       
     </form>
-
-    <!-- Remind Passowrd -->
-    <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
-    </div>
 
   </div>
 </div>
