@@ -1,0 +1,20 @@
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.61:81
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 178-731-208
+werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:20] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:20] "GET /static/tablestyle.css HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:20] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - Executing login command for the email: awstestuser1998@gmail.com
+root - INFO - Logged in successfully for the email: awstestuser1998@gmail.com at 2023-12-14 16:41:25.634522 
+werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:25] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:25] "GET /static/tablestyle.css HTTP/1.1" 200 -
+root - INFO - User chose to add: asfsf:sdfdss for the account 8821
+werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:36] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:36] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:36] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
