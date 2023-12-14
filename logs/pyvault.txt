@@ -18,3 +18,59 @@ root - INFO - User chose to add: asfsf:sdfdss for the account 8821
 werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:36] "POST /content HTTP/1.1" 200 -
 werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:36] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
 werkzeug - INFO - 172.31.196.1 - - [14/Dec/2023 16:41:36] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 183-925-477
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 704-837-607
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 141-871-955
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 131-339-411
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 122-794-821
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 878-785-015
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 376-282-253
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 143-692-781
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 117-227-777
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 183-310-152
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 138-504-224
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 868-972-808
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 144-113-823
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongo_api.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 110-566-834
