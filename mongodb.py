@@ -159,29 +159,20 @@ def add_entry(add_app, add_user, add_pword, account_id, email):
     return e
 
 
-def reset_password(user, email, admin, password):
+def reset_password(email, admin, password):
   try:
     print("Password before encryption:", password)
     encrypt_data = crypt.encryptor(password)
     encrypte_pass = encrypt_data[0]
     key = encrypt_data[1]
-    filter = {"email": email, "user": user, "admin": admin}
+    filter = {"email": email, "admin": admin}
     print("Filter:", filter)
     new_values = {"$set": {'password': encrypte_pass, 'key': key}}
     print("new_values:", new_values)
     print(auth_db)
-    result = auth_db.find_one({
-        "email": email,
-        "user": user,
-        "admin": admin
-    }, {"_id": 0})
+    result = auth_db.find_one({"email": email, "admin": admin}, {"_id": 0})
     print("Result from auth DB entry:", result)
-    response = auth_db.update_one(
-        {
-            "email": email,
-            "user": user,
-            "admin": admin
-        }, new_values)
+    response = auth_db.update_one({"email": email, "admin": admin}, new_values)
     print(response)
     return "Updated"
   except:

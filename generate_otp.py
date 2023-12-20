@@ -3,7 +3,7 @@ import math, random
 import os
 
 
-def generate_opt(email, user):
+def generate_opt(email):
   digits = "0123456789"
   OTP = ""
   for i in range(4):
@@ -19,9 +19,9 @@ def generate_opt(email, user):
   to_email = email
   subject = 'OTP Verification'
   from_email = smtp_username
-  subject = 'Hello, world!'
+  subject = f'PyVault Password Reset for {email}'
   body = f"""
-Dear {user},
+Dear {email},
 
 As per your password reset request below is the OTP for verification.  
 OTP: {OTP}

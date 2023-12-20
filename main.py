@@ -145,7 +145,7 @@ def verify_otp():
     data["admin"] = admin
     data["user"] = user
     import generate_otp
-    result = generate_otp.generate_opt(email, user)
+    result = generate_otp.generate_opt(email)
     #current_session["OTP"] = result
     print("OTP Result:", result)
     return render_template("forgot_password.html", otp=result, data=data)
@@ -180,17 +180,16 @@ def reset_password():
   if request.method == "POST":
     print("From Reset Password:")
     print(data)
-    user = data["user"]
     email = data["email"]
     admin = data["admin"]
     password = request.form.get("password")
-    response = mongodb.reset_password(user, email, admin, password)
+    response = mongodb.reset_password(email, admin, password)
     if response == "Updated":
-      logger.info(f"Password updated for email: {email}:{user}")
+      logger.info(f"Password updated for email: {email}")
       flash("Password updated successfully!!")
       return render_template("home.html")
     else:
-      logger.info(f"Unable to update password: {email}:{user}")
+      logger.info(f"Unable to update password: {email}")
       flash("Unable to reset password, check the email ID!!")
       return render_template("forgot_password.html")
 
