@@ -496,3 +496,125 @@ werkzeug - INFO - 172.31.196.1 - - [19/Dec/2023 15:02:30] "[36mGET /static/tabl
 werkzeug - INFO - 172.31.196.1 - - [19/Dec/2023 15:03:13] "GET / HTTP/1.1" 200 -
 werkzeug - INFO - 172.31.196.1 - - [19/Dec/2023 15:03:14] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
 werkzeug - INFO - 172.31.196.1 - - [19/Dec/2023 15:03:14] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.11:81
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 619-246-518
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:24] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:25] "GET /static/tablestyle.css HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:33] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:33] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:33] "GET /static/tablestyle.css HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+root - INFO - Executing login command for the email: awstestuser1998@gmail.com
+root - INFO - Logged in successfully for the email: awstestuser1998@gmail.com at 2023-12-20 06:07:44.487730 
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:44] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:44] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:44] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:57] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [20/Dec/2023 06:07:57] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.95:81
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 117-335-653
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 06:47:06] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 06:47:27] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 06:47:28] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 06:47:29] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 07:32:21] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 07:32:22] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 07:32:23] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 08:45:19] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 08:45:19] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 08:45:19] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 08:45:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 08:45:24] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 08:45:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 08:45:25] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 08:45:55] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 08:45:55] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [21/Dec/2023 08:45:55] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.22:81
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 109-256-979
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 04:23:49] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 04:23:50] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 04:23:50] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/main.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.22:81
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 137-188-897
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/main.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 273-496-293
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 04:25:17] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 04:25:17] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 04:25:17] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 04:25:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 04:25:41] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 04:25:42] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 04:25:42] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 05:35:01] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 05:35:03] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [22/Dec/2023 05:35:03] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/main.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 830-287-012
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.20:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 513-996-534
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.20:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 327-777-460
+werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:26:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:26:47] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:26:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:26:47] "GET /static/tablestyle.css HTTP/1.1" 200 -
+root - INFO - Executing login command for the email: sivasubramaniyan516@gmail.com
+root - INFO - Logged in successfully for the email: sivasubramaniyan516@gmail.com at 2023-12-23 16:26:56.301981 
+werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:26:56] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:26:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:26:56] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - User chose to add: mira:mira for the account 8821
+werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:27:03] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:27:03] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:27:04] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
