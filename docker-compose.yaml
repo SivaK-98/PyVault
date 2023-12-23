@@ -1,0 +1,5 @@
+services:
+  pyvault:
+    image: siva1595845/pyvault:v1
+    ports:
+      - 8080:8080
