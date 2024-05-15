@@ -25,6 +25,8 @@ def login(email, password):
 
       flag = False
       if decrypted == password:
+        print("Decrypted: ", decrypted)
+        print("Entered Password: ", password)
         print("Password matched!!")
         flag = True
         flag = str(flag)

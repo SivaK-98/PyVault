@@ -105,6 +105,7 @@ def create_account():
   admin_email = request.form.get("adminemail")
   password = request.form.get("password")
   mobile = request.form.get("mobile")
+  print("admin email:", admin_email)
   result = mongodb.create_account(email, user, mobile, password, admin_email)
   result = str(result)
 

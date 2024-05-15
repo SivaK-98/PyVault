@@ -668,3 +668,549 @@ werkzeug - INFO -  * Debugger PIN: 491-403-341
 werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:33:57] "GET / HTTP/1.1" 200 -
 werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:33:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
 werkzeug - INFO - 172.31.196.1 - - [23/Dec/2023 16:33:58] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.21:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 668-393-118
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 03:55:27] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 03:55:27] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 03:55:28] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 03:55:39] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 03:55:39] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 03:55:39] "GET /static/tablestyle.css HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 03:55:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+root - INFO - Executing login command for the email: sivasubramaniyan516@gmail.com
+root - INFO - Logged in successfully for the email: sivasubramaniyan516@gmail.com at 2023-12-25 03:55:50.710078 
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 03:55:50] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 03:55:51] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 03:55:51] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 04:52:09] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 04:52:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.1 - - [25/Dec/2023 04:52:10] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.90:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 122-306-783
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:11:48] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:11:49] "GET /static/tablestyle.css HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:11:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:00] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:01] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:01] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:01] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:02] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:03] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:03] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:43] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:44] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:44] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:45] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:46] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:12:47] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Executing login command for the email: awstestuser1998@gmail.com
+root - INFO - Logged in successfully for the email: awstestuser1998@gmail.com at 2024-05-03 05:13:01.806703 
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:13:01] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:13:02] "[35m[1mGET /content HTTP/1.1[0m" 500 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.90:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 111-140-194
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:12] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:13] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:14] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:17] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:17] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:18] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:19] "GET /static/tablestyle.css HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:19] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:21] "GET /static/tablestyle.css HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:21] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - Creating account: awstestuser1998@gmail.com:awstestuser:awstestuser1998@gmail.com
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:43] "POST /create_account HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:18:44] "[35m[1mGET /create_account HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:28] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:29] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:29] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:31] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:31] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:32] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:43] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:43] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:44] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:44] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:45] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:20:47] "GET /static/tablestyle.css HTTP/1.1" 200 -
+root - INFO - Creating account: awstestuser1998@gmail.com:awstestuser:awstestuser1998@gmail.com
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:21:04] "POST /create_account HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.90 - - [03/May/2024 05:21:04] "[35m[1mGET /create_account HTTP/1.1[0m" 500 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.90:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 140-012-866
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.61:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 429-724-229
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.53:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 787-261-537
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:32:43] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:32:43] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:32:44] "GET /static/tablestyle.css HTTP/1.1" 200 -
+root - INFO - Executing login command for the email: awstestuser1998@gmail.com
+root - INFO - Logged in successfully for the email: awstestuser1998@gmail.com at 2024-05-15 05:32:58.811027 
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:32:58] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:32:59] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:32:59] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - User chose to add: whatsapp:whatsappuser for the account 8821
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:33:24] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:33:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:33:25] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - remove operation selected by user
+root - INFO - User chose to remove: userapp2:useruser2 from the account 8821
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:33:39] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:33:39] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:33:39] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - User chose to add: dbapp:dbuser for the account 8821
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:34:21] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:34:21] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:34:21] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - remove operation selected by user
+root - INFO - User chose to remove: dbapp:dbuser from the account 8821
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:35:29] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:35:30] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.53 - - [15/May/2024 05:35:30] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 147-202-909
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:53:36] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:53:37] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:53:38] "GET /static/tablestyle.css HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:54:00] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:54:00] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:54:00] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:54:01] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:54:01] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Creating account: awstestusercc@gmail.com:awstestuser:awstestusercc@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:54:43] "POST /create_account HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:54:44] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:54:44] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:54:44] "[35m[1mGET /create_account HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:03] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:10] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:11] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:11] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Executing login command for the email: awstestuser1998@gmail.com
+root - INFO - Logged in successfully for the email: awstestuser1998@gmail.com at 2024-05-15 06:55:29.334118 
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:29] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:29] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:29] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:29] "[35m[1mGET /content HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:35] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:35] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:36] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Executing login command for the email: awstestuser@gmail.com
+root - ERROR - Invalid email given: awstestuser@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:57] "[32mPOST /content HTTP/1.1[0m" 302 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:57] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:58] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:58] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:58] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:58] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:55:58] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:12] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:12] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:13] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:13] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:13] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - Executing login command for the email: awstestuser1899@gmail.com
+root - ERROR - Invalid email given: awstestuser1899@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:23] "[32mPOST /content HTTP/1.1[0m" 302 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:23] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:23] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:23] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:23] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:24] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:24] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:58] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:59] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:56:59] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:00] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:00] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - OTP sent to: awstestuser1998@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:16] "POST /verify_otp HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:16] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:17] "[35m[1mGET /verify_otp HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:48] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:49] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:53] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:53] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:54] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:54] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:57:54] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - OTP sent to: awstestuser@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:11] "POST /verify_otp HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:11] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:11] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:12] "[35m[1mGET /verify_otp HTTP/1.1[0m" 500 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:28] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:29] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:29] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - OTP sent to: hastthakanni@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:45] "POST /verify_otp HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:46] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 06:58:46] "[35m[1mGET /verify_otp HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:14] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:16] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:16] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 517-633-843
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:27] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:27] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:27] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:28] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:28] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:28] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:52] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:53] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:53] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:04:53] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Creating account: awstestusercc@gmail.com:awstestusercc:awstestusercc@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:05:32] "POST /create_account HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:05:32] "[35m[1mGET /create_account HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:06:18] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:06:19] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:06:19] "GET /static/tablestyle.css HTTP/1.1" 200 -
+root - INFO - Executing login command for the email: awstestusercc@gmail.com
+root - INFO - Logged in successfully for the email: awstestusercc@gmail.com at 2024-05-15 07:06:31.478229 
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:06:31] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 07:06:31] "[35m[1mGET /content HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:12] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:13] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:13] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Executing login command for the email: awstestuser1998@gmail.com
+root - ERROR - Invalid password given for the email: awstestuser1998@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:22] "[32mPOST /content HTTP/1.1[0m" 302 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:22] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:23] "GET /static/tablestyle.css HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:23] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - Executing login command for the email: awstestuser1998@gmail.com
+root - ERROR - Invalid password given for the email: awstestuser1998@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:25] "[32mPOST /content HTTP/1.1[0m" 302 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:25] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:26] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:26] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:26] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:27] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:28] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:28] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Executing login command for the email: awstestuser1998@gmail.com
+root - INFO - Logged in successfully for the email: awstestuser1998@gmail.com at 2024-05-15 08:28:33.623061 
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:33] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 08:28:34] "[35m[1mGET /content HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:09:09] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:09:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:09:11] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 926-168-763
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:24:47] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:24:47] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:24:48] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:24:48] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:24:49] "GET /static/tablestyle.css HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:24:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:25:57] "GET /forgot_password HTTP/1.1" 200 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:25:57] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:25:58] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:25:58] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - OTP sent to: awstestusercc@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:26:13] "POST /verify_otp HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:26:14] "[35m[1mGET /verify_otp HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:26:55] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:26:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:26:56] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:27:04] "GET /forgot_password HTTP/1.1" 200 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:27:04] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:27:05] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:27:05] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - OTP sent to: awstestuser1998@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:27:22] "POST /verify_otp HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:27:22] "[35m[1mGET /verify_otp HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:28:05] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:28:05] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:28:05] "GET /static/tablestyle.css HTTP/1.1" 200 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:28:09] "GET /forgot_password HTTP/1.1" 200 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:28:09] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:28:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:28:10] "GET /static/tablestyle.css HTTP/1.1" 200 -
+root - INFO - OTP sent to: darkseid5981@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:28:46] "POST /verify_otp HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:28:46] "[35m[1mGET /verify_otp HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:08] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:10] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:11] "GET /forgot_password HTTP/1.1" 200 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:12] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:12] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:12] "GET /static/tablestyle.css HTTP/1.1" 200 -
+root - INFO - OTP verified and directed to password reset: darkseid5981@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:25] "POST /validate_otp HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:25] "[35m[1mGET /validate_otp HTTP/1.1[0m" 500 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 384-551-290
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:44] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:44] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:44] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:44] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:44] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:29:44] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Executing login command for the email: darkseid5981@gmail.com
+root - ERROR - Invalid password given for the email: darkseid5981@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:11] "[32mPOST /content HTTP/1.1[0m" 302 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:11] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:11] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:12] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:12] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - INFO - Executing login command for the email: darkseid5981@gmail.com
+root - INFO - Logged in successfully for the email: darkseid5981@gmail.com at 2024-05-15 09:30:18.736917 
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:18] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:19] "[35m[1mGET /content HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:40] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:41] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:41] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Executing login command for the email: awstestusercc@gmail.com
+root - INFO - Logged in successfully for the email: awstestusercc@gmail.com at 2024-05-15 09:30:55.813234 
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:55] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:30:56] "[35m[1mGET /content HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:31:04] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:31:04] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:31:05] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 159-264-848
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:31:32] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:31:32] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:31:32] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:31:32] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:31:32] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:31:33] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 394-579-035
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:32:45] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:32:45] "GET / HTTP/1.1" 200 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:32:45] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:32:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:32:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:32:46] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:32:46] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:32:47] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:32:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:33:19] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:33:20] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:33:20] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:33:20] "GET /static/tablestyle.css HTTP/1.1" 200 -
+root - INFO - Creating account: darkseid5981@gmail.com:darkseid5981:darkseid5981@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:34:19] "POST /create_account HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:34:19] "[35m[1mGET /create_account HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:34:46] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:34:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:34:47] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 627-769-401
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:38:57] "GET /signup HTTP/1.1" 200 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:38:57] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:38:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:38:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:38:57] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:38:58] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Creating account: darkseid5981@gmail.com:darkseid5981:darkseid5981@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:22] "POST /create_account HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:22] "[35m[1mGET /create_account HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:42] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:42] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:42] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:45] "GET /forgot_password HTTP/1.1" 200 -
+root - INFO - Forgot password is used by someone
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:45] "GET /forgot_password HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:46] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:47] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:48] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:49] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:50] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:50] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:39:50] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 896-421-359
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:18] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:19] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:19] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:23] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:23] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:23] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+root - ERROR - Email exists: darkseid5981@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:39] "[32mPOST /create_account HTTP/1.1[0m" 302 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:39] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:40] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:40] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:40] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:40] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:40:40] "GET /static/tablestyle.css HTTP/1.1" 200 -
+root - INFO - Creating account: darkseid5981@gmail.com:darkseid5981:darkseid5981@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:44:15] "POST /create_account HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:44:16] "[35m[1mGET /create_account HTTP/1.1[0m" 500 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 697-290-887
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:45:56] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:45:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:45:57] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Creating account: darkseid5981@gmail.com:darkseid5981:darkseid5981@gmail.com
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:46:13] "POST /create_account HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:46:14] "[35m[1mGET /create_account HTTP/1.1[0m" 500 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:47:23] "GET /signup HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:47:24] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:47:24] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:47:30] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:47:30] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:47:31] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:47:31] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Executing login command for the email: darkseid5981@gmail.com
+root - INFO - Logged in successfully for the email: darkseid5981@gmail.com at 2024-05-15 09:47:40.514370 
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:47:40] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:47:40] "[35m[1mGET /content HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongodb.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 139-356-100
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongodb.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 875-647-805
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongodb.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 139-003-025
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongodb.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 120-944-725
+werkzeug - INFO -  * Detected change in '/home/runner/PyVault/mongodb.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.22:8080
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 117-508-038
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:50:18] "GET /home HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:50:19] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:50:19] "[36mGET /static/tablestyle.css HTTP/1.1[0m" 304 -
+root - INFO - Executing login command for the email: darkseid5981@gmail.com
+root - INFO - Logged in successfully for the email: darkseid5981@gmail.com at 2024-05-15 09:50:27.130234 
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:50:27] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 172.31.196.22 - - [15/May/2024 09:50:27] "[35m[1mGET /content HTTP/1.1[0m" 500 -
